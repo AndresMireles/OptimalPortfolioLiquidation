@@ -1,6 +1,19 @@
 # OptimalPortfolioLiquidation
 
-This project replicates and extends the theoretical and numerical results of [Guéant, Lehalle, and Fernandez-Tapia (2012)](http://arxiv.org/abs/1106.3279) on optimal portfolio liquidation using limit orders. The implementation uses a backward Euler scheme to solve the associated ODE system from the Hamilton-Jacobi-Bellman framework, performs Monte Carlo simulations for trading dynamics, and includes sensitivity and benchmark strategy analyses.
+This project replicates and extends the theoretical and numerical results of [Gueant, Lehalle, and Fernandez-Tapia (2012)](http://arxiv.org/abs/1106.3279) on optimal portfolio liquidation using limit orders. The implementation uses a backward Euler scheme to solve the associated ODE system from the Hamilton-Jacobi-Bellman framework, performs Monte Carlo simulations for trading dynamics, and includes extensive sensitivity and benchmark strategy analyses.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Replicating the Results](#replicating-the-results)
+  - [Sensitivity Analysis](#sensitivity-analysis)
+  - [Benchmark Strategies](#benchmark-strategies)
+- [Files and Directories](#files-and-directories)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Overview
 
