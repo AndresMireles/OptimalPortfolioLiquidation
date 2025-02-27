@@ -20,14 +20,12 @@ This project contains a complete replication of the model and numerical experime
 - **trading_curve.ipynb**  
   This script simulates the trading process using Monte Carlo methods. It:
   - Implements the dynamics of the inventory process, price process (using the Euler–Maruyama discretization), and cash process.
-  - Generates trading curves, which plot the average remaining inventory over time.
-  - Illustrates how the optimal strategy gradually reduces the inventory over the liquidation horizon.
+  - Generates trading curves, which capture the average remaining inventory over time.
 
 - **sensitivity.ipynb**  
   In this script, we perform a detailed sensitivity analysis by varying key model parameters:
-  - Parameters such as volatility $sigma$, execution intensity scale $A$, liquidation cost $b$, risk aversion $gamma$, intensity decay $k$, and drift $mu$.
+  - Parameters such as volatility $\sigma$, execution intensity scale $A$, liquidation cost $b$, risk aversion $\gamma$, intensity decay $k$, and drift $\mu$.
   - Plots are generated to show how the optimal ask quote $\delta^{a*}(0,q)$ changes with inventory $q$ for different values of these parameters.
-  - These experiments help validate the model's behavior as predicted by the analytical formulas in the paper.
 
 - **strategies_comparison.ipynb**  
   This module extends the analysis by comparing the optimal strategy with three benchmark strategies:
@@ -36,12 +34,3 @@ This project contains a complete replication of the model and numerical experime
   - **Random Strategy:** Samples quotes uniformly from a predefined interval.
   - The script simulates the trading curves and final cash distributions for each strategy, enabling a performance comparison in terms of liquidation speed and cash outcomes.
 
-## Summary
-
-The code in this project replicates the theoretical framework of [Gueant, Lehalle, and Fernandez-Tapia (2012)] and includes:
-- A robust numerical solver for the ODE system underlying the optimal quote computation.
-- Monte Carlo simulations to analyze trading dynamics.
-- Sensitivity analysis to assess the impact of key parameters.
-- Benchmark strategy comparisons to evaluate performance trade-offs.
-
-Feel free to explore the source files in the `src/` directory and the accompanying LaTeX report in the `report/` folder for a detailed exposition of the methodology and results.
