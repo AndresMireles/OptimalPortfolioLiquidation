@@ -1,3 +1,5 @@
+# This file contains the main functions that will be used throughout the project, including the computation of the optimal quote by the resolution of the system of ODES, as well as market simulation.
+
 import numpy as np
 
 # Method for solving the system of q ODEs for w[q]
