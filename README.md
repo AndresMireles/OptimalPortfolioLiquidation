@@ -33,4 +33,10 @@ This project contains a complete replication of the model and numerical experime
   - **Greedy Strategy:** Uses a fixed, higher quote regardless of inventory.
   - **Random Strategy:** Samples quotes uniformly from a predefined interval.
   - The script simulates the trading curves and final cash distributions for each strategy, enabling a performance comparison in terms of liquidation speed and cash outcomes.
+ 
+
+![strategies_comparison_trading_curve](https://github.com/user-attachments/assets/5822627c-e342-4265-a402-b6f6788f5515)
+![strategies_comparison_pnl](https://github.com/user-attachments/assets/6e5a8f20-921f-4fcb-b6a1-25b399e577e8)
+
+
 
