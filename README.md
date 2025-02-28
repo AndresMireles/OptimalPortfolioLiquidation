@@ -22,7 +22,7 @@ This project contains a complete replication of the model and numerical experime
   - Implements the dynamics of the inventory process, price process (using the Euler–Maruyama discretization), and cash process.
   - Generates trading curves, which capture the average remaining inventory over time.
 
-- **sensitivity.ipynb**  
+- **sensitivities.ipynb**  
   In this script, we perform a detailed sensitivity analysis by varying key model parameters:
   - Parameters such as volatility $\sigma$, execution intensity scale $A$, liquidation cost $b$, risk aversion $\gamma$, intensity decay $k$, and drift $\mu$.
   - Plots are generated to show how the optimal ask quote $\delta^{a*}(0,q)$ changes with inventory $q$ for different values of these parameters.
