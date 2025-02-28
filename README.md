@@ -1,6 +1,6 @@
 # Optimal Portfolio Liquidation
 
-This project contains a complete replication of the model and numerical experiments presented in [Gueant, Lehalle, and Fernandez-Tapia (2012)](http://arxiv.org/abs/1106.3279). The codebase implements the theoretical framework for optimal portfolio liquidation using limit orders and extends the analysis with sensitivity studies and comparisons with benchmark strategies.
+This project contains a complete replication of the model and numerical experiments presented in [Guéant, Lehalle, and Fernandez-Tapia (2012)](http://arxiv.org/abs/1106.3279). The codebase implements the theoretical framework for optimal portfolio liquidation using limit orders and extends the analysis with sensitivity studies and comparisons with benchmark strategies.
 
 ## What is Covered in the Code
 
