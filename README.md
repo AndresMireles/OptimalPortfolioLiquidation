@@ -8,8 +8,8 @@ This project contains a complete replication of the model and numerical experime
 
 - **methods.py**  
   This module contains the fundamental numerical routines for solving the model. It implements:
-  - **ODE Solver:** Uses a backward Euler scheme to solve the system of ordinary differential equations (ODEs) for the functions $\(w_q(t)$ (see Equation (10) with terminal conditions in Equation (11) from the paper). These functions form the basis for computing the optimal ask quotes.
-  - **Optimal Quote Computation:** Implements the formula for the optimal ask quote (Equation (13)) based on the precomputed $\(w_q(t)$.
+  - **ODE Solver:** Uses a backward Euler scheme to solve the system of ordinary differential equations (ODEs) for the functions $w_q(t)$ (see Equation (10) with terminal conditions in Equation (11) from the paper). These functions form the basis for computing the optimal ask quotes.
+  - **Optimal Quote Computation:** Implements the formula for the optimal ask quote (Equation (13)) based on the precomputed $w_q(t)$.
   - **Trading Path Simulation:**  Simulates a number of price paths and evaluates the corresponding strategy, keeping track of cash and inventory.
 - **optimal_quotes.ipynb**  
   This script replicates the key figures from the original paper that display the evolution of the optimal ask quotes. It covers:
